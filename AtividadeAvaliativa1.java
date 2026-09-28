@@ -19,7 +19,7 @@ public class AtividadeAvaliativa1 {
         int opt = -1;
         while (opt != 0) {
             System.out.println("\n1- Cadastrar Ordem de Serviço | 2- Vincular Mecânico | 3 - Atribuir/Finalizar Ordem de Serviço");
-            System.out.println("4- Ordens Box   | 5- Qntd Ordens Finalizadas/Box   | 6- Busca Status | 7- Detalhes Ordem de Serviço | 0 Sair do Sistema");
+            System.out.println("4- Ordens Box   | 5- Qntd Ordens Finalizadas/Box   | 6- Busca Status | 7- Detalhes Ordem de Serviço | 0- Sair do Sistema");
             System.out.print("Opção: ");
             opt = Integer.parseInt(s.nextLine());
 
