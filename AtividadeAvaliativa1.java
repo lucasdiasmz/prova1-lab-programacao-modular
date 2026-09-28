@@ -77,7 +77,7 @@ public class AtividadeAvaliativa1 {
             if (b != null && b.getTipoServicoPermitido().equalsIgnoreCase(os.getServico().getCategoria()) && b.adicionarOrdem(os)) {
                 os.setBoxAtribuido(b);
                 os.setStatus(StatusOrdem.EM_EXECUCAO);
-                System.out.println("OS iniciada no Box " + b.getNumero());
+                System.out.println("Ordem de Serviço iniciada no Box " + b.getNumero());
             } else {
                 System.out.println("Erro: Serviço incompatível ou Box cheio!!");
             }
